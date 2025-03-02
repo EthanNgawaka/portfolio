@@ -91,4 +91,4 @@ document.addEventListener('DOMContentLoaded', function () {
         generateCarousel('carousel-freelance-'+i, freelance_proj_imgs[i-1]);
     }
     console.log("Here")
-}
+});
