@@ -52,24 +52,24 @@ personal_proj_imgs = [];
 for(let i = 1; i < 12; i++){
     personal_proj_imgs.push(
         [
-            { src: 'imgs/personal/'+i+'/1.png', alt: 'First slide' },
-            { src: 'imgs/personal/'+i+'/2.png', alt: 'Second slide' },
-            { src: 'imgs/personal/'+i+'/3.png', alt: 'Third slide' },
+            { src: '/imgs/personal/'+i+'/1.png', alt: 'First slide' },
+            { src: '/imgs/personal/'+i+'/2.png', alt: 'Second slide' },
+            { src: '/imgs/personal/'+i+'/3.png', alt: 'Third slide' },
         ]);
 }
 
 // this is like really terrible but its a static website for now that i will end up redoing entirely soooo
-personal_proj_imgs[0][0] = { src: 'imgs/personal/1/1.gif', alt: 'First slide' };
+personal_proj_imgs[0][0] = { src: '/imgs/personal/1/1.gif', alt: 'First slide' };
 
 personal_proj_imgs[7] = [
-            { src: 'imgs/personal/8/2.gif', alt: 'First slide' },
-            { src: 'imgs/personal/8/3.gif', alt: 'Second slide' },
-            { src: 'imgs/personal/8/1.png', alt: 'Third slide' },
+            { src: '/imgs/personal/8/2.gif', alt: 'First slide' },
+            { src: '/imgs/personal/8/3.gif', alt: 'Second slide' },
+            { src: '/imgs/personal/8/1.png', alt: 'Third slide' },
         ];
 personal_proj_imgs[8] = [
-            { src: 'imgs/personal/9/1.gif', alt: 'First slide' },
-            { src: 'imgs/personal/9/2.png', alt: 'Second slide' },
-            { src: 'imgs/personal/9/3.png', alt: 'Third slide' },
+            { src: '/imgs/personal/9/1.gif', alt: 'First slide' },
+            { src: '/imgs/personal/9/2.png', alt: 'Second slide' },
+            { src: '/imgs/personal/9/3.png', alt: 'Third slide' },
         ];
 
 for(let i = 1; i < 12; i++){
@@ -80,9 +80,9 @@ freelance_proj_imgs = [];
 for(let i = 1; i < 7; i++){
     freelance_proj_imgs.push(
         [
-            { src: 'imgs/freelance/'+i+'/1.png', alt: 'First slide' },
-            { src: 'imgs/freelance/'+i+'/2.png', alt: 'Second slide' },
-            { src: 'imgs/freelance/'+i+'/3.png', alt: 'Third slide' },
+            { src: '/imgs/freelance/'+i+'/1.png', alt: 'First slide' },
+            { src: '/imgs/freelance/'+i+'/2.png', alt: 'Second slide' },
+            { src: '/imgs/freelance/'+i+'/3.png', alt: 'Third slide' },
         ]);
 }
 
