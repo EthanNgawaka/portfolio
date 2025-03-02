@@ -48,17 +48,17 @@ function generateCarousel(containerId, images) {
     container.innerHTML = carouselHTML;
 }
 
-personal_proj_imgs = [];
-for(let i = 1; i < 12; i++){
-    personal_proj_imgs.push(
-        [
-            { src: '/imgs/personal/'+i+'/1.png', alt: 'First slide' },
-            { src: '/imgs/personal/'+i+'/2.png', alt: 'Second slide' },
-            { src: '/imgs/personal/'+i+'/3.png', alt: 'Third slide' },
-        ]);
-}
 
 document.addEventListener('DOMContentLoaded', function () {
+    personal_proj_imgs = [];
+    for(let i = 1; i < 12; i++){
+        personal_proj_imgs.push(
+            [
+                { src: '/imgs/personal/'+i+'/1.png', alt: 'First slide' },
+                { src: '/imgs/personal/'+i+'/2.png', alt: 'Second slide' },
+                { src: '/imgs/personal/'+i+'/3.png', alt: 'Third slide' },
+            ]);
+    }
     // this is like really terrible but its a static website for now that i will end up redoing entirely soooo
     personal_proj_imgs[0][0] = { src: '/imgs/personal/1/1.gif', alt: 'First slide' };
 
@@ -90,4 +90,5 @@ document.addEventListener('DOMContentLoaded', function () {
     for(let i = 1; i < 7; i++){
         generateCarousel('carousel-freelance-'+i, freelance_proj_imgs[i-1]);
     }
+    console.log("Here")
 }
